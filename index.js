@@ -24,4 +24,4 @@ require('./routes/authRoutes')(app);
 
 
 
-app.listen(process.env.PORT,process.env.IP)
+app.listen(8081,process.env.IP)
